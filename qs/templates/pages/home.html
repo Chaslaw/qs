@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+{% comment %} <header class="header-section">
+  <div class="container">
+      <h1>Quantum Safety</h1>
+      <p>Migration before 2026<strong>&nbsp be cearful</strong> and <strong>act smart</strong></p>
+  </div>
+</header> {% endcomment %}
+
+<!-- Hero 3 - Bootstrap Brain Component -->
+<section id="hero" class="py-3 py-lg-5 py-xl-8">
+  <video loop muted autoplay>
+    <source src="{%static 'qs/images/video.mp4'%}" type="video/mp4">
+  </video>
+  <div class="container">
+    <div class="radial-background" >
+      <div class="heading-wrapper" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true"> 
+        <div class="col-12 col-lg-6 order-1 order-lg-0 text-center">
+          <h1 class="main-heading fw-bold mb-3">Quantum Safety</h1>
+          <p class=" fw-bolder mb-5 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quaerat repudiandae laborum consectetur, adipisci ea.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-center">
+            <button type="button" class="btn btn-primary bsb-btn-2xl rounded-pill">Explore Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  </div>
+</section>
+
+{% endblock %}
