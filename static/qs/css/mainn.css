@@ -50,6 +50,14 @@ body {
   align-items: center;
 }
 
+.radial-background-small {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
 .heading-wrapper {
 display: flex;
 justify-content: center;
@@ -91,6 +99,21 @@ text-shadow: 1px 1px 0px #bba6a6;
   font-weight: 800;
   font-size: 1.3rem;
   color: var(--text-color-primary);
+}
+
+/* ANIMATIONS */
+
+img.computer-img {
+  animation: floating 3s infinite;
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 /* NEWS */
