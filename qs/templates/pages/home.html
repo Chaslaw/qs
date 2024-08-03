@@ -17,19 +17,24 @@
   </video>
   <div class="container">
     <div class="radial-background" >
-      <div class="heading-wrapper" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true"> 
+      <div class="heading-wrapper" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true"> 
         <div class="col-12 col-lg-6 order-1 order-lg-0 text-center">
           <h1 class="main-heading fw-bold mb-3">Quantum Safety</h1>
           <p class=" fw-bolder mb-5 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quaerat repudiandae laborum consectetur, adipisci ea.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-center">
-            <button type="button" class="btn btn-primary bsb-btn-2xl rounded-pill">Explore Now</button>
+           <a class="btn btn-primary bsb-btn-2xl rounded-pill" href="#feature">Explore Now</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
   
-  </div>
 </section>
+
+
+{% include "partial/feature.html" %}
+{% include "partial/features-2.html" %}
+{% include "partial/news.html" %}
 
 {% endblock %}
