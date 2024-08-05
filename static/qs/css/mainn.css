@@ -87,7 +87,7 @@ text-shadow: 1px 1px 0px #bba6a6;
 }
 
 .features-card {
-  height: 500px;
+  height: auto;
   background: #4b3c3c;
 }
 
